@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="900.0" style="-fx-background-color: #1E201E;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hellofx.NewTest">
+   <children>
+      <Label layoutX="73.0" layoutY="29.0" scaleY="0.9" text="TestTyping" textFill="#ecdfcc" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="30.0">
+         <font>
+            <Font name="Segoe UI Historic" size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="wordsNumber" layoutX="70.0" layoutY="85.0" lineSpacing="5.0" prefHeight="41.0" prefWidth="460.0" scaleY="1.1" text="5/13" textFill="#ecdfcc" textOverrun="CLIP" wrapText="true" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="70.0" AnchorPane.topAnchor="85.0">
+         <font>
+            <Font name="Monospaced Bold" size="30.0" />
+         </font>
+      </Label>
+      <FlowPane fx:id="lettersContainer" disable="true" layoutX="70.0" layoutY="181.0" prefHeight="200.0" prefWidth="591.0" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="70.0" />
+      <Label fx:id="WPM" layoutX="288.0" layoutY="59.0" prefHeight="17.0" prefWidth="542.0" textFill="#ecdfcc" AnchorPane.leftAnchor="288.0" AnchorPane.rightAnchor="70.0" AnchorPane.topAnchor="30.0">
+         <font>
+            <Font name="Segoe UI Emoji" size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="Accuracy" layoutX="288.0" layoutY="83.0" prefHeight="17.0" prefWidth="542.0" textFill="#ecdfcc">
+         <font>
+            <Font name="Segoe UI Emoji" size="40.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
